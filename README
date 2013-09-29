@@ -1,7 +1,3 @@
-Wazi ("simple" in Swahili) is a theme for Habari with intent to provide the following:
+This is a theme for the Habari CMS, which can be found here: http://github.com/habari/habari
 
-* Gold-standard, minimalistic, HTML5 blog markup output.
-* A basic, customizable, responsive layout via CSS.
-* An attractive yet simple default design in CSS that can easily be overridden with child themes.
-* An example of Habari theme construction using the $theme->content() rendering technique.
-
+This theme is already shipped with the system. Unless you want to update it from the source (because there were changes to the theme that have not yet been released), you should not install this theme manually.
