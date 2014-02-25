@@ -6,7 +6,7 @@ class WaziTheme extends Theme
 {
 	function action_template_header($theme) {
 		// Add the HTML5 shiv for IE < 9
-		Stack::add('template_header_javascript', array('http://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.js', null, '<!--[if lt IE 9]>%s<![endif]-->'), 'html5_shiv');
+		Stack::add('template_header_javascript', array('//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.js', null, '<!--[if lt IE 9]>%s<![endif]-->'), 'html5_shiv');
 
 		// Add this line to your config.php to show an error and a notice, and
 		// to process the raw LESS code via javascript instead of the rendered CSS:  define('DEBUG_THEME', 1);
